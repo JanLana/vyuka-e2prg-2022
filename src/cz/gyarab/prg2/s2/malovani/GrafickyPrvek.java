@@ -1,5 +1,6 @@
 package cz.gyarab.prg2.s2.malovani;
 
+/*
 import javafx.scene.shape.Path;
 
 public class GrafickyPrvek {
@@ -12,3 +13,5 @@ public class GrafickyPrvek {
         return tah;
     }
 }
+
+ */

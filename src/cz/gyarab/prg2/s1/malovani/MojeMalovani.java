@@ -1,5 +1,6 @@
 package cz.gyarab.prg2.s1.malovani;
 
+/*
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -8,9 +9,10 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+*/
 
-public class MojeMalovani extends Application {
-    List<Nic> mojeScena;
+public class MojeMalovani /* extends Application */ {
+ /*   List<Nic> mojeScena;
 
     public MojeMalovani() {
         mojeScena = new ArrayList<>();
@@ -40,4 +42,6 @@ public class MojeMalovani extends Application {
     public static void main(String[] args) {
         launch();
     }
+
+ */
 }

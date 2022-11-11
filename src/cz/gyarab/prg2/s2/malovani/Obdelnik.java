@@ -1,5 +1,6 @@
 package cz.gyarab.prg2.s2.malovani;
 
+/*
 import javafx.scene.shape.LineTo;
 import javafx.scene.shape.MoveTo;
 import javafx.scene.shape.Path;
@@ -34,3 +35,5 @@ public class Obdelnik extends GrafickyPrvek {
         return path;
     }
 }
+
+ */

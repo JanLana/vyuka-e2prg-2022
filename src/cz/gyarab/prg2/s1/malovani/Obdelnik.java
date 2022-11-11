@@ -1,11 +1,13 @@
 package cz.gyarab.prg2.s1.malovani;
 
+/*
 import javafx.scene.shape.LineTo;
 import javafx.scene.shape.MoveTo;
 import javafx.scene.shape.Path;
+*/
 
 public class Obdelnik extends Nic {
-    int startX;
+/*    int startX;
     int startY;
     int velikostX;
     int velikostY;
@@ -32,4 +34,6 @@ public class Obdelnik extends Nic {
 
         return path;
     }
+
+ */
 }

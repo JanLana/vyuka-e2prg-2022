@@ -1,11 +1,12 @@
 package cz.gyarab.prg2.s1.malovani;
 
+/*
 import javafx.scene.shape.LineTo;
 import javafx.scene.shape.MoveTo;
 import javafx.scene.shape.Path;
-
+*/
 public class Ctverec extends Nic {
-    int startX;
+/*    int startX;
     int startY;
     int velikost;
 
@@ -29,4 +30,6 @@ public class Ctverec extends Nic {
 
         return path;
     }
+
+ */
 }

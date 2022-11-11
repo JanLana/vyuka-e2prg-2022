@@ -1,5 +1,6 @@
 package cz.gyarab.prg2.s2.malovani;
 
+/*
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -39,3 +40,5 @@ public class MojeMalovani extends Application {
         launch();
     }
 }
+
+ */
