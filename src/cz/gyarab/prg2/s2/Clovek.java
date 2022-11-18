@@ -12,7 +12,7 @@ public class Clovek implements UmiSeTridit, Comparable {
     }
 
     public boolean jsemVetsiNez(UmiSeTridit x) {
-        Clovek b = (Clovek)x;
+        Clovek b = (Clovek) x;
         if (jeMuz == true && b.jeMuz == false) {
             return true;
         } else if (jeMuz == false && b.jeMuz == true) {
@@ -34,19 +34,19 @@ public class Clovek implements UmiSeTridit, Comparable {
 
     @Override
     public int compareTo(Object o) {
-        Clovek b = (Clovek)o;
-            if (jeMuz == true && b.jeMuz == false) {
-                return 1;
-            } else if (jeMuz == false && b.jeMuz == true) {
-                return -1;
-            } else if (vaha > b.vaha) {
-                return 1;
-            } else if (vaha < b.vaha){
-                return -1;
-            } else {
-                return 0;
-            }
+        Clovek b = (Clovek) o;
+        if (jeMuz == true && b.jeMuz == false) {
+            return 1;
+        } else if (jeMuz == false && b.jeMuz == true) {
+            return -1;
+        } else if (vaha > b.vaha) {
+            return 1;
+        } else if (vaha < b.vaha) {
+            return -1;
+        } else {
+            return 0;
         }
-
     }
+
 }
+
