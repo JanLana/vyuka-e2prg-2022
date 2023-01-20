@@ -8,5 +8,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="apache.lang.commons" level="project" />
+    <orderEntry type="library" name="thoughtworks.xstream" level="project" />
+    <orderEntry type="library" name="thoughtworks.xstream" level="project" />
   </component>
 </module>
