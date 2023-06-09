@@ -8,4 +8,8 @@ public class Prvek {
         this.hodnota = hodnota;
         this.dalsi = dalsi;
     }
+
+    public Prvek(int hodnota) {
+        this(hodnota, null);
+    }
 }

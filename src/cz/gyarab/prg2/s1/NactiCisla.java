@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class NactiCisla {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Prvek hlava = null;
+        PrvekSpojovehoSeznamu hlava = null;
 
         for(;;) {
             int vstup = sc.nextInt();
@@ -20,19 +20,19 @@ public class NactiCisla {
             hlava = novy;
             */
 
-            hlava = new Prvek(vstup, hlava);
+            hlava = new PrvekSpojovehoSeznamu(vstup, hlava);
         }
 
         /*
         Prvek aktualni = hlava;
         while(aktualni != null) {
-            System.out.println(aktualni.polozka);
+            System.out.println(aktualni.hodnota);
             aktualni = aktualni.dalsi;
         }
          */
 
-        for(Prvek i = hlava; i != null; i = i.dalsi) {
-            System.out.println(i.polozka);
+        for(PrvekSpojovehoSeznamu i = hlava; i != null; i = i.dalsi) {
+            System.out.println(i.hodnota);
         }
 
         // vypis seznam
