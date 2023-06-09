@@ -1,6 +1,8 @@
 package cz.gyarab.prg2.s1;
 
-public class PrvekSpojovehoSeznamu {
+import java.io.Serializable;
+
+public class PrvekSpojovehoSeznamu implements Serializable {
     int hodnota;
     PrvekSpojovehoSeznamu dalsi;
 
